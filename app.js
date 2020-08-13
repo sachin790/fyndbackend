@@ -86,8 +86,8 @@ app.use(function(err, req, res, next) {
 });
 
 //server 
-http.createServer(app).listen(7020, function()  {
-    console.log('Express server listening on port.. ' +7020);
+http.createServer(app).listen(3000, function()  {
+    console.log('Express server listening on port.. ' +3000);
   });
   
 
